@@ -1,0 +1,133 @@
+\documentclass{exam-zh}
+\usepackage{siunitx}
+
+\examsetup{
+  page/size=a4paper,
+  paren/show-paren=true,
+  paren/show-answer=false,
+  fillin/show-answer=false,
+  solution/show-solution=false
+}
+
+\ExamPrintAnswerSet{
+  sealline/show=true,
+  page/size=a3paper,
+  paren/show-answer=false,
+  fillin/show-answer=false,
+  solution/show-solution=false,
+}
+
+
+\everymath{\displaystyle}
+
+\title{何老师的数学练习题（赵一涵 2024年5月1日）}
+
+\subject{四则混合运算}
+
+
+
+\begin{document}
+
+\maketitle
+
+
+% 1.
+\begin{question}[points = 2]
+  设集合 $A = \{x \mid -1 < x < 4\}$，$B = \{2, 3, 4, 5\}$，则 $A \cap B = $ \paren[B]
+
+  \begin{choices}
+    \item $\{2\}$
+    \item $\{2, 3\}$
+    \item $\{3, 4\}$
+    \item $\{2, 3, 4\}$
+  \end{choices}
+\end{question}
+
+\begin{question}题干\paren\begin{choices}\item 选项1\item 选项2\item 选项3\end{choices}\end{question}
+
+% 2.
+\begin{question}
+  已知 $z = 2 - \iu$，则 $z (\bar{z} + \iu) = $ \paren
+  \begin{choices}
+    \item $6 - 2\iu$
+    \item $2 - 2\iu$
+    \item $6 + 2\iu$
+    \item $4 + 2\iu$
+  \end{choices}
+\end{question}
+
+
+% 9.
+\begin{question}
+  有一组样本数据 $x_1, x_2, \dots, x_n$，由 这组数据的到新样本数据 $y_1, y_2, \dots, y_n$，
+  其中 $y_i = x_i + c$（$i = 1, 2, \dots, n$） 为非零常数，则 \paren
+  \begin{choices}
+    \item 两组样本数据的样本平均数相同
+    \item 两组样本数据的样本中位数相同
+    \item 两组样本数据的样本标准差相同
+    \item 两组样本数据的样本极差相同
+  \end{choices}
+\end{question}
+
+% 10.
+\begin{question}
+  已知 $O$ 为坐标原点，点
+  $P_1(\cos\alpha,  \sin\alpha)$，
+  $P_2(\cos\beta , -\sin\alpha)$，
+  $P_3(\cos(\alpha + \beta),  \sin(\alpha + \beta))$，
+  $A(1, 0)$ \paren
+  \begin{choices}
+    \item $|\overrightarrow{OP_1}| = |\overrightarrow{OP_2}|$
+    \item $|\overrightarrow{AP_1}| = |\overrightarrow{AP_2}|$
+    \item $\overrightarrow{OA} \cdot \overrightarrow{OP_3}
+      = \overrightarrow{OP_1} \cdot \overrightarrow{OP_2}$
+    \item $\overrightarrow{OA} \cdot \overrightarrow{OP_1}
+      = \overrightarrow{OP_2} \cdot \overrightarrow{OP_3}$
+  \end{choices}
+\end{question}
+
+
+% 13.
+\begin{question}
+  已知函数 $f(x) = x^3 (a \cdot 2^x - 2^{-x})$ 是偶函数，则 $a = $ \fillin[] 。
+\end{question}
+
+% 14.
+\begin{question}
+  已知 $O$ 为坐标原点，抛物线 $C \colon y^2 = 2px$（$p > 0$）的焦点为 $F$，
+  $P$ 为 $C$ 上一点，$PF$ 与 $x$ 轴垂直，$Q$ 为 $x$ 轴上一点，且 $PQ \perp OP$，
+  若 $|FQ| = 6$，则 $C$ 的准线方程为 \fillin[$\dfrac{1}{3}$] 。
+\end{question}
+
+% 17.
+\begin{problem}[points = 10]
+  已知数列 $\{a_n\}$ 满足 $a_1 = 1$，$a_{n+1} =
+    \begin{cases}
+      a_n + 1, \quad \text{$n$ 为奇数，} \\
+      a_n + 2, \quad \text{$n$ 为偶数。}
+    \end{cases}$
+  \begin{enumerate}
+    \item 记 $b_n = a_{2n}$，写出 $b_1$，$b_2$，并求数列 $\{b_n\}$ 的通项公式；
+    \item 求 $\{a_n\}$ 的前 $20$ 项和。
+  \end{enumerate}
+\end{problem}
+
+% 18.
+\begin{problem}[points = 12]
+  某学校组织“一带一路”知识竞赛，有 A，B 两类问题。
+  每位参加比赛的同学现在两类问题中选择一类并从中随机抽取一个问题回答，
+  若回答错误则该同学比赛结束；
+  若回答正确则从另一类问题中再随机抽取一个问题回答，无论回答正确与否，该同学比赛结束。
+  A 类问题中的每个问题回答正确的 $20$ 分，否则得 $0$ 分；
+  B 类问题中的每个问题回答正确的 $80$ 分，否则得 $0$ 分。
+
+  已知小明能正确回答 A 类问题的概率为 $0.8$，能正确回答 B 类问题的概率为 $0.6$，
+  且能正确回答问题的概率与回答次序无关。
+  \begin{enumerate}
+    \item 若小明先回答 A 类问题，记 $X$ 为小明的累计得分，求 $X$ 的分布列；
+    \item 为使累计得分的期望最大，小明应选择先回答哪类问题？并说明理由。
+  \end{enumerate}
+\end{problem}
+
+
+\end{document} 
